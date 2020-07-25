@@ -105,7 +105,7 @@ function setting(){
 	#安装AriaNg
 	wget ${ccaa_web_url}
 	#tar -zxvf ccaa_web.tar.gz
-	cp ccaa_web /usr/sbin/
+	cp ccaa-master/ccaa_web /usr/sbin/
 	chmod +x /usr/sbin/ccaa_web
 
 	#启动服务
